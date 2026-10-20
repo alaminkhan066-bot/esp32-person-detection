@@ -1,0 +1,14 @@
+
+name: Check ESP32 AI Library
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check build environment
+        run: |
+          echo "GitHub cloud runner is working"
+          echo "Next step: configure ESP32-S3 AI library build"
